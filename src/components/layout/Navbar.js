@@ -14,7 +14,7 @@ class Navbar extends Component {
             data-toggle='collapse'
             data-target='#mobile-nav'
           >
-            <span className='navbar-toggler-icon'></span>
+            <span className='navbar-toggler-icon' />
           </button>
 
           <div className='collapse navbar-collapse' id='mobile-nav'>
@@ -45,4 +45,5 @@ class Navbar extends Component {
     );
   }
 }
+
 export default Navbar;
