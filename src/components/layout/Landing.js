@@ -15,7 +15,11 @@ class Landing extends Component {
                   from other developers
                 </p>
                 <hr />
-                <a href='register.html' className='btn btn-lg btn-info mr-2'>
+                <a
+                  href='register.html'
+                  className='btn btn-lg btn-info mr-2'
+                  style={{ marginRight: '1rem' }}
+                >
                   Sign Up
                 </a>
                 <a href='login.html' className='btn btn-lg btn-light'>
